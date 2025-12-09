@@ -1,0 +1,24 @@
+# Fichiers et dossiers inutiles pour Docker
+.git
+.gitignore
+docker-compose.yml
+Dockerfile
+
+# Dossiers d'éditeur
+.vscode
+.idea
+
+# Fichiers temporaires
+*.log
+
+# Cache WordPress
+wp-content/cache
+wp-content/uploads/cache
+
+# Node (si tu utilises un thème avec npm)
+node_modules
+npm-debug.log
+
+# OS
+.DS_Store
+Thumbs.db
